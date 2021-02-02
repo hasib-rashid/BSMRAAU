@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 #home {
@@ -142,7 +143,7 @@ nav ul li a:hover::before {
     content: "";
     position: absolute;
     height: 14vh;
-    width: 70vw;
+    width: 95vw;
     border-radius: 20px;
     align-items: center;
     justify-content: center;
@@ -162,7 +163,7 @@ nav ul li a:hover::before {
     animation: bounce-4 2s infinite;
 }
 
-.about {
+.home_about_vc {
     margin: 40px 20px;
     display: flex;
     justify-content: space-evenly;
@@ -173,22 +174,54 @@ nav ul li a:hover::before {
     border: 1px solid #222;
     width: 100%;
     height: 100%;
-    padding: 15px;
+    padding: 7px;
 }
 
 .text h1 {
-    color: #1810b9;
+    color: #222;
+    text-transform: uppercase;
     font-size: xx-large;
+    letter-spacing: 3px;
+}
+
+.text span {
+    color: crimson;
 }
 
 .text p {
     color: #333;
 }
 
+.text .button {
+    padding: 10px 30px;
+    background-color: crimson;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.text .button {
+    display: inline-block;
+    padding: 10px 30px;
+    color: crimson;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.text .button:hover {
+    background-color: crimson;
+    color: #f5f5f5;
+}
+
 .sep {
-    width: 50px;
+    width: 200px;
     height: 2px;
-    background: #1810b9;
+    background: crimson;
     margin: 30px 0;
 }
 
