@@ -77,6 +77,11 @@ nav ul li a:hover::before {
     left: 0;
 }
 
+.highlights {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 .highlights article {
     display: flex;
     background-color: #222;
