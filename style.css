@@ -45,6 +45,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo img {
@@ -54,6 +55,10 @@ header {
 .logo h1 {
     color: #f5f5f5;
     margin-left: 20px;
+}
+
+.light_header {
+    background-color: #222;
 }
 
 nav ul {
@@ -211,6 +216,49 @@ nav ul li a:hover::before {
     justify-content: space-evenly;
 }
 
+.faculty_members {
+    margin: 30px;
+}
+
+.member {
+    background-color: #2e81f4;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.member .member_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 250px;
+}
+
+.faculty_learn_more {
+    background-color: #222;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    color: #f5f5f5;
+    border-radius: 20px;
+}
+
+.faculty_vc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .vc_thumbnail {
     margin-right: 20px;
     width: 100%;
@@ -294,10 +342,22 @@ footer {
     font-size: xx-large;
     margin-left: 25px;
     margin-right: 25px;
+    cursor: pointer;
 }
 
 .copyright {
     margin-top: 50px;
+}
+
+.footer_linking {
+    padding: 30px;
+}
+
+.footer_linking a {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #f5f5f5;
+    text-decoration: none;
 }
 
 @keyframes bounce-4 {
